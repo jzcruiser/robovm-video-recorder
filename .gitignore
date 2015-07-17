@@ -1,0 +1,24 @@
+# Disallow binary artifacts from entering the repo
+*.[Ww][Aa][Rr]
+*.[Jj][Aa][Rr]
+*.[Aa][Pp][Kk]
+*.[Ee][Aa][Rr]
+*.[Dd][Ll][Ll]
+*.[Ss][Oo]
+*.[Dd][Yy][Ll][Ii][Bb]
+*.[Ee][Xx][Ee]
+*.[Aa][Pp][Pp]/
+
+# Ignore IDE artifacts
+.idea/
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.settings/
+
+# Ignore normal gradle/grails build output stuff
+.gradle/
+build/
+robovm-build/
